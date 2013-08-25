@@ -1,0 +1,45 @@
+{
+    "purchases" : [
+        {
+            "id" : "abcdef",
+            "amount" : 1,
+            "status" : "cancelled",
+            "product_id" : "premium_2_99",
+            "best_before" : null
+        },
+        {
+            "id" : "klmnou",
+            "amount" : 1,
+            "status" : "purchased",
+            "product_id" : "inner_circle_0_99",
+            "best_before" : 1348517501
+        },
+        {
+            "id" : "xyz",
+            "amount" : 2,
+            "status" : "refunded",
+            "product_id" : "genghis_khan_11_99",
+            "best_before" : null
+        }
+    ],
+    "products": [
+        {
+            "id": "premium_2_99",
+            "name": "Test 2.99 Subscription",
+            "type": "premium",
+            "icon": "http://www.zizoronprem.com/uploads/1/2/4/7/12478779/6656583_orig.jpg"
+        },
+        {
+            "id": "inner_circle_0_99",
+            "name": "Test 0_99 Inner Circle",
+            "type": "inner_circle",
+            "icon": "http://www.creativeenergyconsultants.com/wp-content/uploads/2012/06/inner-circle.png"
+        },
+        {
+            "id": "genghis_khan_11_99",
+            "name": "Test 11,99 Bing Genghis Khan Special Edition",
+            "type": "extra_emotion",
+            "icon": "http://s1.hubimg.com/u/4016296_100.jpg"
+        }
+    ]
+}

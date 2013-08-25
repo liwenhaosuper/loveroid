@@ -1,0 +1,192 @@
+{
+    "name": "GLO",
+    "steps": [
+    {
+        "timeout": 1000,
+        "expectedEvents": [],
+        "onDrawActions": [{
+            "type": "ActivityMethod",
+            "properties": {
+                "method_name": "animateToFeed"
+            }
+        }]
+    },
+
+    {
+        "highlightItemPath": "composer_buttons_show_hide_button",
+        "headline": "Click on the composer",
+        "subHeadline": "It will open sharing options",
+        "onDrawActions": [{
+            "type": "ActivityMethod",
+            "properties": {
+                "method_name": "tutorialCloseComposerButtons"
+            }
+        }],
+        "onAreaClicks": [{
+            "type": "ActivityMethod",
+            "properties": {
+                "method_name": "tutorialOpenComposerButtons"
+            }
+        },
+        {
+            "type": "TutorialEvent",
+            "properties": {
+                "type": "NextStep"
+            }
+        }],
+        "expectedEvents": []
+    },
+    {
+        "invisible": true,
+        "timeout": 250,
+        "expectedEvents": []
+    },
+    {
+        "highlightItemPath": "composer_button_photo",
+        "headline": "Click on the camera icon",
+        "subHeadline": "It will open camera screen",
+        "onAreaClicks": [{
+            "type": "Click",
+            "properties": {
+                "view_path": "composer_button_photo"
+            }
+        }],
+        "expectedEvents": [
+        {
+            "type": "Click",
+            "properties": {
+                "view_id": "composer_button_photo"
+            }
+        },
+        {
+            "type": "ActivityResume",
+            "properties": {
+                "activity_name": "CameraActivity"
+            }
+        }
+        ]
+    },
+    {
+        "invisible": true,
+        "expectedEvents": [
+        {
+            "type": "InitializedCamera"
+        }
+        ]
+    },
+    {
+        "highlightItemPath": "shutterBackground",
+        "headline": "when you find a good shot, click on capture button",
+        "subHeadline": "it will grab the image",
+        "timeout": 2500,
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+    },
+    {
+        "highlightItemPath": "libraryButtonBackground",
+        "headline": "you can also import from your phone",
+        "subHeadline": "and edit existing photo",
+        "timeout": 2000,
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+    },
+    {
+        "invisible": true,
+        "expectedEvents": [
+        {
+            "type": "InitializePhotoPreview"
+        }
+        ]
+    },
+    {
+        "highlightItemPath": "yuvSurfaceView",
+        "headline": "this is the original photo that you've captured",
+        "subHeadline": "",
+        "timeout": 5000,
+        "expectedEvents": [],
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+    },
+    {
+        "highlightItemPath": "toggleGlo",
+        "headline": "now click on the glo button",
+        "subHeadline": "our magical algorithm will  make the photo look better",
+        "expectedEvents": [
+        {
+            "type": "GloReady"
+        }
+        ],
+        "onAreaClicks": [{
+            "type": "Click",
+            "properties": {
+                "view_path": "toggleGlo"
+            }
+        }]
+    },
+    {
+        "highlightItemPath": "toggleGlo",
+        "headline": "if you dont like it, you can revert back to the original",
+        "subHeadline": "our scientists hope not :)",
+        "timeout": 2000,
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+
+    },
+    {
+        "highlightItemPath": "acceptPreviewBtn",
+        "headline": "when you are done, click on the accept button",
+        "subHeadline": "and share with close friends etc.",
+        "timeout": 1500,
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+
+    },
+    {
+        "invisible": true,
+        "expectedEvents": [
+        {
+            "type": "ActivityResume",
+            "properties": {
+                "activity_name": "MainActivity"
+            }
+        }
+        ]
+    },
+    {
+        "invisible": true,
+        "expectedEvents": [
+        {
+            "type": "PostMoment"
+        }
+        ]
+    },
+    {
+        "invisible": true,
+        "expectedEvents": [
+        {
+            "type": "FeedRefresh"
+        }
+        ]
+    },
+    {
+        "invisible": true,
+        "timeout": 5000,
+        "expectedEvents": []
+    },
+    {
+        "highlightItemPath": "thumbnail",
+        "headline": "hope you like it",
+        "subHeadline": "olala",
+        "considerAllClicksForArea": true,
+        "timeout": 2500,
+        "onAreaClicks": [{
+            "type": "HideTutorial"
+        }]
+    }
+    ]
+}

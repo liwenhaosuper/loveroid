@@ -1,0 +1,104 @@
+{
+        "name": "MomentLite",
+		"version" : 1,
+        "steps" : [
+		{
+            "timeout" : 1000,
+			"activityName" : "HomeActivity",
+            "expectedEvents": [],
+            "onDrawActions" : [{
+                "type" : "ActivityMethod",
+                "properties" : {
+                    "method_name" : "animateToFeed"
+                }
+            }]
+        },
+		{
+            "highlightItemPaths": "composer_buttons_show_hide_button",
+            "headlineStringId": "tutorial_moment_lite_welcome",
+            "subHeadlineStringId": "tutorial_moment_lite_welcome_sub",
+			"extraHighlightMargins" : [30, 30, 30, 30],
+			"holeType" : "circle",
+			"activityName" : "HomeActivity",
+            "onDrawActions" : [{
+                "type" : "GlobalEvent",
+                "properties" : {
+                    "class_name" : "com.path.events.tutorial.CloseComposerButtonsEvent"
+                }
+            }
+            ],
+			"onAreaClicks" : [{
+				"type" : "GlobalEvent",
+                "properties" : {
+                    "class_name" : "com.path.events.tutorial.OpenComposerButtonsEvent"
+                }
+			},
+			{
+                "type" : "TutorialEvent",
+                "properties" : {
+                    "type" : "NextStep"
+                }
+            }],
+            "expectedEvents": [],
+            "trackingEvent" : "NUXTutorialWelcomeDisplayed"
+        },
+		{
+            "invisible" : true,
+			"timeout" : 250,
+			"expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "composer_buttons_show_hide_button",
+			"extraHighlightMargins" : [180, 180, 180, 180],
+			"activityName" : "HomeActivity",
+            "headlineStringId": "tutorial_moment_lite_moments",
+            "subHeadlineStringId": "tutorial_moment_lite_moments_sub",
+			"holeType" : "circle",
+			"considerAllClicksForArea" : true,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+			"trackingEvent" : "NUXTutorialMomentsDisplayed",
+            "expectedEvents": [
+			{
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_photo"
+                }
+            },
+            {
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_place"
+                }
+            },
+			{
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_music"
+                }
+            },
+			{
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_thought"
+                }
+            },
+			{
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_sleep"
+                }
+            }
+            ]
+        },
+        {
+            "invisible" : true,
+            "timeout" : 250,
+            "expectedEvents": [],
+            "trackingEvent" : "NUXFinished"
+        }]
+}

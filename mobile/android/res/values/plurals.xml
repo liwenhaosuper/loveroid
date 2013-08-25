@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notify_uploading_ticker">
+        <item quantity="other">Uploading to Path (%1$s of %2$s)…</item>
+        <item quantity="one">Uploading to Path…</item>
+    </plurals>
+    <plurals name="notify_uploading_content">
+        <item quantity="other">Uploading moment to Path (%1$s of %2$s)</item>
+        <item quantity="one">Uploading moment to Path</item>
+    </plurals>
+    <plurals name="feed_search_bookmarks">
+        <item quantity="other">%1$s Bookmarks</item>
+    </plurals>
+    <plurals name="feed_search_moments">
+        <item quantity="other">%1$s moments</item>
+        <item quantity="one">%1$s moment</item>
+    </plurals>
+    <plurals name="cover_common_friends">
+        <item quantity="other">%1$s Friends in Common</item>
+        <item quantity="one">%1$s Friend in Common</item>
+    </plurals>
+    <plurals name="emotion_picker_deluxe_seenit">
+        <item quantity="other">Seen by %1$s friends</item>
+        <item quantity="one">Seen by %1$s friend</item>
+    </plurals>
+    <plurals name="leader_board_title_visitors_count">
+        <item quantity="other">%1$s Visitors</item>
+        <item quantity="zero">No Visitors</item>
+        <item quantity="one">%1$s Visitor</item>
+    </plurals>
+    <plurals name="leader_board_title_locals_count">
+        <item quantity="other">%1$s Locals</item>
+        <item quantity="zero">No Locals</item>
+        <item quantity="one">%1$s Local</item>
+    </plurals>
+    <plurals name="leader_board_title_fans_count">
+        <item quantity="other">%1$s Fans</item>
+        <item quantity="zero">No Fans</item>
+        <item quantity="one">%1$s Fan</item>
+    </plurals>
+    <plurals name="leader_board_summary_visited">
+        <item quantity="other">Been here %1$s times</item>
+        <item quantity="zero">Never been here</item>
+        <item quantity="one">Been here %1$s time</item>
+    </plurals>
+    <plurals name="leader_board_summary_days">
+        <item quantity="other">%1$s days</item>
+        <item quantity="one">%1$s day</item>
+    </plurals>
+    <plurals name="leader_board_summary_listened">
+        <item quantity="other">Listened %1$s times</item>
+        <item quantity="zero">Never listened</item>
+        <item quantity="one">Listened %1$s time</item>
+    </plurals>
+    <plurals name="leader_board_summary_listened_to">
+        <item quantity="other">Listened to %1$s times</item>
+        <item quantity="zero">Never listened</item>
+        <item quantity="one">Listened to %1$s time</item>
+    </plurals>
+    <plurals name="leader_board_summary_watched">
+        <item quantity="other">Watched %1$s times</item>
+        <item quantity="zero">Never Watched</item>
+        <item quantity="one">Watched %1$s time</item>
+    </plurals>
+    <plurals name="leader_board_summary_read">
+        <item quantity="other">Read %1$s times</item>
+        <item quantity="zero">Never read</item>
+        <item quantity="one">Read %1$s time</item>
+    </plurals>
+    <plurals name="user_stats_moments">
+        <item quantity="other">%1$s moments</item>
+        <item quantity="zero">No moments</item>
+        <item quantity="one">%1$s moment</item>
+    </plurals>
+    <plurals name="nux_find_friends_confirm_text">
+        <item quantity="other">Send friend request to %1$d Path users?</item>
+        <item quantity="one">Add 1 Path user?</item>
+    </plurals>
+    <plurals name="nux_invite_friends_confirm_text">
+        <item quantity="other">Send invites to %1$d friends to join you on Path?</item>
+        <item quantity="one">Invite 1 friend to join you on Path?</item>
+    </plurals>
+    <plurals name="nux_add_friend_undo_text">
+        <item quantity="other">Invites successfully sent to all %1$d of your friends!</item>
+        <item quantity="one">Invite successfully sent to your friend!</item>
+    </plurals>
+    <plurals name="share_moment_people_count">
+        <item quantity="other">With %2$s Friends</item>
+        <item quantity="one">With %1$s</item>
+    </plurals>
+    <plurals name="share_moment_privately_with">
+        <item quantity="other">Sharing only with %2$s Friends</item>
+        <item quantity="one">Sharing only with %1$s</item>
+    </plurals>
+    <plurals name="friends_suggested_by_pluras">
+        <item quantity="other">Suggested by %1$s and %2$d others</item>
+        <item quantity="one">Suggested by %1$s and %2$d other</item>
+    </plurals>
+    <plurals name="friends_count">
+        <item quantity="other">%1$s Friends</item>
+        <item quantity="one">%1$s Friend</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$s hours</item>
+        <item quantity="one">%1$s hour</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">%1$s minute</item>
+    </plurals>
+    <plurals name="popover_group_members">
+        <item quantity="other">Group members (%1$s)</item>
+    </plurals>
+    <plurals name="friends_progress_missing_friends">
+        <item quantity="other">"You've added %1$d friends, %2$d to go..."</item>
+        <item quantity="one">"You've added %1$d friend, %2$d to go..."</item>
+    </plurals>
+    <plurals name="friends_progress_waiting_accept">
+        <item quantity="other">%1$d friends have accepted, %2$d to go...</item>
+        <item quantity="one">%1$d friend have accepted, %2$d to go...</item>
+    </plurals>
+    <plurals name="friends_progress_btn_add">
+        <item quantity="other">Add %1$d More Friends</item>
+        <item quantity="one">Add %1$d More Friend</item>
+    </plurals>
+</resources>

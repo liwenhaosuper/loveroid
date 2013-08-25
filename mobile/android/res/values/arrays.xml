@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camera_blacklist_prefix">
+        <item>GT-S5830</item>
+        <item>GT-S5839</item>
+        <item>GT-S6802</item>
+    </string-array>
+    <array name="camera_blacklist_exact_match" />
+    <string-array name="camera_glo_blacklist">
+        <item>Nexus 4</item>
+    </string-array>
+    <string-array name="nux_family_contact_display_names">
+        <item>‘opà</item>
+        <item>aayi</item>
+        <item>abatyse</item>
+        <item>abba(h)</item>
+        <item>abba</item>
+        <item>abbi</item>
+        <item>aboji</item>
+        <item>abonim</item>
+        <item>ahm</item>
+        <item>äiti</item>
+        <item>ama</item>
+        <item>amai</item>
+        <item>amca</item>
+        <item>amma</item>
+        <item>ammee</item>
+        <item>ammi</item>
+        <item>ana</item>
+        <item>anne</item>
+        <item>anneanne</item>
+        <item>anya</item>
+        <item>apa</item>
+        <item>appa</item>
+        <item>apu</item>
+        <item>athair</item>
+        <item>atta</item>
+        <item>aunt</item>
+        <item>auntie</item>
+        <item>aunty</item>
+        <item>ayah</item>
+        <item>baabaa</item>
+        <item>baba</item>
+        <item>babba</item>
+        <item>babbo</item>
+        <item>banketi</item>
+        <item>bapa</item>
+        <item>bata, dai</item>
+        <item>bebe</item>
+        <item>beta</item>
+        <item>beti</item>
+        <item>bhabhi</item>
+        <item>bhai</item>
+        <item>bhaiya</item>
+        <item>biang</item>
+        <item>bro</item>
+        <item>buwa</item>
+        <item>chacha</item>
+        <item>chachu</item>
+        <item>dad</item>
+        <item>dada</item>
+        <item>daddy</item>
+        <item>dadi</item>
+        <item>daidí</item>
+        <item>daya</item>
+        <item>dayı</item>
+        <item>dede</item>
+        <item>didi</item>
+        <item>eadni</item>
+        <item>édesapa</item>
+        <item>eje</item>
+        <item>ema</item>
+        <item>emä</item>
+        <item>emak</item>
+        <item>emo</item>
+        <item>ewe</item>
+        <item>far</item>
+        <item>father</item>
+        <item>foter</item>
+        <item>fu</item>
+        <item>grandma</item>
+        <item>grandpa</item>
+        <item>haakoro</item>
+        <item>haakui</item>
+        <item>haha</item>
+        <item>ibu</item>
+        <item>iloy</item>
+        <item>inahan</item>
+        <item>induk</item>
+        <item>isa</item>
+        <item>isä</item>
+        <item>itay</item>
+        <item>janak</item>
+        <item>kantaäiti</item>
+        <item>kardeş-im</item>
+        <item>kızım</item>
+        <item>kohake</item>
+        <item>kuzen</item>
+        <item>ma</item>
+        <item>maa</item>
+        <item>macii</item>
+        <item>madar</item>
+        <item>madèr</item>
+        <item>màder</item>
+        <item>madr</item>
+        <item>mädra</item>
+        <item>madre</item>
+        <item>mãe</item>
+        <item>mai</item>
+        <item>maica</item>
+        <item>maire</item>
+        <item>maji</item>
+        <item>majka</item>
+        <item>makuahine</item>
+        <item>mam</item>
+        <item>mama</item>
+        <item>mamá</item>
+        <item>maman</item>
+        <item>mami</item>
+        <item>"mamm'"</item>
+        <item>mamm</item>
+        <item>mamma</item>
+        <item>mamu</item>
+        <item>mána</item>
+        <item>màna</item>
+        <item>mare</item>
+        <item>mari</item>
+        <item>"mat'"</item>
+        <item>mataji</item>
+        <item>mater</item>
+        <item>máthair</item>
+        <item>mati</item>
+        <item>máti</item>
+        <item>matka</item>
+        <item>matre, mamma</item>
+        <item>matri</item>
+        <item>me</item>
+        <item>mèder</item>
+        <item>medra</item>
+        <item>mëmë</item>
+        <item>mére</item>
+        <item>mère</item>
+        <item>moæ</item>
+        <item>moder</item>
+        <item>móðir</item>
+        <item>moeder</item>
+        <item>moer</item>
+        <item>mojer</item>
+        <item>mom</item>
+        <item>mommy</item>
+        <item>mor</item>
+        <item>morsa</item>
+        <item>mother</item>
+        <item>motina</item>
+        <item>mueter</item>
+        <item>mum</item>
+        <item>mummy</item>
+        <item>mumsy</item>
+        <item>muter</item>
+        <item>mutter</item>
+        <item>mutti</item>
+        <item>mytyr</item>
+        <item>mzaa</item>
+        <item>mzazi</item>
+        <item>nai</item>
+        <item>nana</item>
+        <item>nanay</item>
+        <item>nani</item>
+        <item>nay</item>
+        <item>nënë</item>
+        <item>ñuke</item>
+        <item>ñuque</item>
+        <item>nyokap</item>
+        <item>ôèe</item>
+        <item>oğlum</item>
+        <item>ojciec</item>
+        <item>okaasan</item>
+        <item>omm</item>
+        <item>oppa</item>
+        <item>otac</item>
+        <item>otec</item>
+        <item>otosan</item>
+        <item>pabo</item>
+        <item>pai</item>
+        <item>pak</item>
+        <item>panjo</item>
+        <item>papa</item>
+        <item>papá</item>
+        <item>papà</item>
+        <item>papi</item>
+        <item>pappa</item>
+        <item>pappie</item>
+        <item>pare</item>
+        <item>parinte</item>
+        <item>pater</item>
+        <item>patri</item>
+        <item>patrino</item>
+        <item>pedar</item>
+        <item>pita-ji</item>
+        <item>pitaji</item>
+        <item>pitar</item>
+        <item>pop</item>
+        <item>popà</item>
+        <item>poppa</item>
+        <item>pops</item>
+        <item>pradininkas</item>
+        <item>protevis</item>
+        <item>pupà</item>
+        <item>reny</item>
+        <item>salentino</item>
+        <item>sis</item>
+        <item>tad</item>
+        <item>taica</item>
+        <item>tata</item>
+        <item>táta</item>
+        <item>tàtah</item>
+        <item>tatay</item>
+        <item>tateh</item>
+        <item>tatti</item>
+        <item>tay</item>
+        <item>tevas</item>
+        <item>tevs</item>
+        <item>teyze</item>
+        <item>uma</item>
+        <item>uncle</item>
+        <item>vader</item>
+        <item>valide</item>
+        <item>vieja</item>
+        <item>viejo</item>
+        <item>yebba</item>
+        <item>yeğen</item>
+        <item>yenge</item>
+        <item>老公</item>
+        <item>宝贝</item>
+        <item>老婆</item>
+        <item>宝贝</item>
+        <item>妈</item>
+        <item>妈妈</item>
+        <item>老妈</item>
+        <item>爸</item>
+        <item>爸爸</item>
+        <item>老爸</item>
+        <item>女儿</item>
+        <item>闺女</item>
+        <item>儿子</item>
+        <item>哥</item>
+        <item>哥哥</item>
+        <item>弟</item>
+        <item>弟弟</item>
+        <item>姐</item>
+        <item>姐姐</item>
+        <item>妹</item>
+        <item>妹妹</item>
+        <item>祖父</item>
+        <item>爷爷</item>
+        <item>祖母</item>
+        <item>奶奶</item>
+        <item>大姨</item>
+        <item>小姨</item>
+        <item>姑姑</item>
+        <item>舅舅</item>
+        <item>大舅</item>
+        <item>小舅</item>
+        <item>叔叔</item>
+        <item>伯伯</item>
+        <item>表姐</item>
+        <item>表妹</item>
+        <item>表哥</item>
+        <item>表弟</item>
+        <item>侄子</item>
+        <item>侄女</item>
+        <item>老公</item>
+        <item>寶貝</item>
+        <item>老婆</item>
+        <item>寶貝</item>
+        <item>媽</item>
+        <item>媽媽</item>
+        <item>老媽</item>
+        <item>爸</item>
+        <item>爸爸</item>
+        <item>老爸</item>
+        <item>女兒</item>
+        <item>閨女</item>
+        <item>兒子</item>
+        <item>哥</item>
+        <item>哥哥</item>
+        <item>弟</item>
+        <item>弟弟</item>
+        <item>姐</item>
+        <item>姐姐</item>
+        <item>妹</item>
+        <item>妹妹</item>
+        <item>祖父</item>
+        <item>爺爺</item>
+        <item>祖母</item>
+        <item>奶奶</item>
+        <item>大姨</item>
+        <item>小姨</item>
+        <item>姑姑</item>
+        <item>舅舅</item>
+        <item>大舅</item>
+        <item>小舅</item>
+        <item>叔叔</item>
+        <item>伯伯</item>
+        <item>表姐</item>
+        <item>表妹</item>
+        <item>表哥</item>
+        <item>表弟</item>
+        <item>侄子</item>
+        <item>侄女</item>
+    </string-array>
+    <string-array name="nux_family_contact_first_names">
+        <item>aunt</item>
+        <item>aunty</item>
+        <item>auntie</item>
+        <item>uncle</item>
+    </string-array>
+    <string-array name="nux_family_contact_last_names">
+        <item>chacha</item>
+        <item>chachu</item>
+        <item>mama</item>
+        <item>mamu</item>
+        <item>uncle</item>
+    </string-array>
+    <string-array name="roboguice_modules">
+        <item>com.path.ApplicationConfig</item>
+    </string-array>
+    <string-array name="sent_age_ago">
+        <item>Sent %1$s years ago</item>
+        <item>Sent %1$s year ago</item>
+        <item>Sent %1$s months ago</item>
+        <item>Sent %1$s month ago</item>
+        <item>Sent %1$s weeks ago</item>
+        <item>Sent %1$s week ago</item>
+        <item>Sent %1$s days ago</item>
+        <item>Sent %1$s day ago</item>
+        <item>Sent %1$s hours ago</item>
+        <item>Sent %1$s hour ago</item>
+        <item>Sent %1$s minutes ago</item>
+        <item>Sent %1$s minute ago</item>
+        <item>Sent a few moments ago</item>
+    </string-array>
+    <string-array name="last_seen_age_ago">
+        <item>Last seen %1$s years ago</item>
+        <item>Last seen %1$s year ago</item>
+        <item>Last seen %1$s months ago</item>
+        <item>Last seen %1$s month ago</item>
+        <item>Last seen %1$s weeks ago</item>
+        <item>Last seen %1$s week ago</item>
+        <item>Last seen %1$s days ago</item>
+        <item>Last seen %1$s day ago</item>
+        <item>Last seen %1$s hours ago</item>
+        <item>Last seen %1$s hour ago</item>
+        <item>Last seen %1$s minutes ago</item>
+        <item>Last seen %1$s minute ago</item>
+        <item>Last seen a few moments ago</item>
+    </string-array>
+    <string-array name="age_ago">
+        <item>%1$s years ago</item>
+        <item>%1$s year ago</item>
+        <item>%1$s months ago</item>
+        <item>%1$s month ago</item>
+        <item>%1$s weeks ago</item>
+        <item>%1$s week ago</item>
+        <item>%1$s days ago</item>
+        <item>%1$s day ago</item>
+        <item>%1$s hours ago</item>
+        <item>%1$s hour ago</item>
+        <item>%1$s minutes ago</item>
+        <item>%1$s minute ago</item>
+        <item>A few moments ago</item>
+    </string-array>
+    <string-array name="age_ago_with_location">
+        <item>%1$s years ago from</item>
+        <item>%1$s year ago from</item>
+        <item>%1$s months ago from</item>
+        <item>%1$s month ago from</item>
+        <item>%1$s weeks ago from</item>
+        <item>%1$s week ago from</item>
+        <item>%1$s days ago from</item>
+        <item>%1$s day ago from</item>
+        <item>%1$s hours ago from</item>
+        <item>%1$s hour ago from</item>
+        <item>%1$s minutes ago from</item>
+        <item>%1$s minute ago from</item>
+        <item>A few moments ago from</item>
+    </string-array>
+    <string-array name="age_ago_with_location_as_placeholder">
+        <item>%1$s years ago from %2$s</item>
+        <item>%1$s year ago from %2$s</item>
+        <item>%1$s months ago from %2$s</item>
+        <item>%1$s month ago from %2$s</item>
+        <item>%1$s weeks ago from %2$s</item>
+        <item>%1$s week ago from %2$s</item>
+        <item>%1$s days ago from %2$s</item>
+        <item>%1$s day ago from %2$s</item>
+        <item>%1$s hours ago from %2$s</item>
+        <item>%1$s hour ago from %2$s</item>
+        <item>%1$s minutes ago from %2$s</item>
+        <item>%1$s minute ago from %2$s</item>
+        <item>A few moments ago from %2$s</item>
+    </string-array>
+    <string-array name="cover_requests_text">
+        <item>%1$s would like to share</item>
+        <item>%1$s and %2$s would like to share</item>
+        <item>%1$s and %2$s people would like to share</item>
+    </string-array>
+    <string-array name="general_age">
+        <item>%1$s years</item>
+        <item>%1$s year</item>
+        <item>%1$s months</item>
+        <item>%1$s month</item>
+        <item>%1$s weeks</item>
+        <item>%1$s week</item>
+        <item>%1$s days</item>
+        <item>%1$s day</item>
+        <item>Just today</item>
+    </string-array>
+    <string-array name="compose_music_footer">
+        <item>by %1$s (%2$s)</item>
+        <item>by %1$s on %3$s (%2$s)</item>
+    </string-array>
+    <string-array name="friend_nudge_list">
+        <item>Take a photo!</item>
+        <item>Where are you?</item>
+        <item>What are you up to?</item>
+    </string-array>
+    <string-array name="feed_nudge_list">
+        <item>Take a photo!</item>
+        <item>Where are you?</item>
+        <item>What are you up to?</item>
+        <item>Comment</item>
+    </string-array>
+    <string-array name="permalink_nudge_list">
+        <item>Take a photo!</item>
+        <item>Where are you?</item>
+        <item>What are you up to?</item>
+    </string-array>
+    <string-array name="sleep_dialog_duration">
+        <item>%1$s hours and %2$s minutes of sleep</item>
+        <item>%1$s hours and %2$s minute of sleep</item>
+        <item>%1$s hour and %2$s minutes of sleep</item>
+        <item>%1$s hour and %2$s minute of sleep</item>
+        <item>%1$s hours of sleep</item>
+        <item>%1$s hour of sleep</item>
+        <item>%2$s minutes of sleep</item>
+        <item>%2$s minute of sleep</item>
+        <item>%3$s seconds of sleep</item>
+        <item>%3$s second of sleep</item>
+        <item>%3$s seconds of sleep</item>
+    </string-array>
+</resources>

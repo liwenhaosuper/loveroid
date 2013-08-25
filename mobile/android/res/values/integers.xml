@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abs__max_action_buttons">2</integer>
+    <integer name="stretchable_top">0</integer>
+    <integer name="stretchable_bottom">1</integer>
+    <integer name="chat_max_record_duration_seconds">20</integer>
+    <integer name="clock_animation_duration">300</integer>
+    <integer name="emotion_picker_perm_show_duration">100</integer>
+    <integer name="emotion_picker_perm_hide_duration">300</integer>
+    <integer name="emotion_picker_deluxe_show_duration">100</integer>
+    <integer name="emotion_picker_deluxe_hide_duration">300</integer>
+</resources>

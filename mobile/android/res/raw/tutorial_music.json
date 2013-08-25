@@ -1,0 +1,240 @@
+{
+        "name": "Musixcx",
+		"version" : 3,
+        "steps" : [
+		{
+            "timeout" : 1000,
+            "expectedEvents": [],
+            "onDrawActions" : [{
+                "type" : "ActivityMethod",
+                "properties" : {
+                    "method_name" : "animateToFeed"
+                }
+            }]
+        },
+		{
+            "highlightItemPaths": "composer_buttons_show_hide_button",
+            "headline": "Welcome to Path. Let's start by journaling your first moment.",
+            "subHeadline": "Tap the Stories button",
+            "onDrawActions" : [{
+                "type" : "ActivityMethod",
+                "properties" : {
+                    "method_name" : "tutorialCloseComposerButtons"
+                }
+            }
+            ],
+			"onAreaClicks" : [{
+				"type" : "ActivityMethod",
+                "properties" : {
+                    "method_name" : "tutorialOpenComposerButtons"
+                }
+			},
+			{
+                "type" : "TutorialEvent",
+                "properties" : {
+                    "type" : "NextStep"
+                }
+            }],
+            "expectedEvents": []
+        },
+		{
+            "invisible" : true,
+			"timeout" : 500,
+			"expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "composer_button_music",
+            "headline": "On Path, you can journal a variety of stories. Let's create a music story",
+            "subHeadline": "Tap the Music button",
+			"onAreaClicks" : [{
+				"type" : "Click",
+				"properties": {
+                    "view_path": "composer_button_music"
+                }
+			}],
+            "expectedEvents": [
+            {
+                "type": "Click",
+                "properties": {
+                    "view_id": "composer_button_music"
+                }
+            },
+			{
+                "type": "ActivityResume",
+                "properties": {
+                    "activity_name": "ComposeMusicActivity"
+                }
+            }
+            ]
+        },
+		{
+            "highlightItemPaths": "search_bar_view",
+            "headline": "Type your favorite song.",
+			"onAreaClicks" : [{
+				"type" : "HideTutorial"
+			},
+			{
+				"type" : "Focus",
+				"properties" : {
+					"view_path" : "search_box"
+				}
+			}],
+            "expectedEvents": [
+			{
+                "type": "ActivityResume",
+                "properties": {
+                    "activity_name": "ShareMomentActivity"
+                }
+            }
+			]
+        },
+		{
+            "invisible" : true,
+			"timeout" : 500,
+			"expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "share_moment_thought_bubble",
+            "headline": "What are you thinking?",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+            "expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "add_people",
+            "headline": "Who are you with?",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+            "expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "add_place",
+            "headline": "Where are you?",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+            "expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "social_networks_container",
+            "headline": "Share to other networks.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+            "expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "checkbox_private",
+            "headline": "Keep it private.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}],
+            "expectedEvents": []
+        },
+		{
+            "highlightItemPaths": "nux_next_button",
+            "headline": "Save!",
+            "subHeadline": "When you're ready, save this moment to your Path.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}]
+        },
+		{
+            "invisible" : true,
+			"expectedEvents": [
+				{
+					"type" : "PostMoment"
+				}
+			]
+        },
+		{
+            "invisible" : true,
+			"expectedEvents": [
+				{
+					"type" : "FeedRefresh"
+				}
+			]
+        },
+		{
+            "invisible" : true,
+			"timeout" : 1500,
+			"expectedEvents": []
+        },
+		{
+			"highlightItemPath" : "list_view/moment_dot",
+			"headline" : "Story.",
+			"subHeadline" : "This is your Music story.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onDrawActions" : [{
+                "type" : "ActivityMethod",
+                "properties" : {
+                    "method_name" : "animateToFeed"
+                }
+            }],
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}]
+		},
+		{
+			"highlightItemPath" : "list_view/music_artwork_wrapper",
+			"headline" : "Music Preview",
+			"subHeadline" : "Press this button to preview the track.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}]
+		},
+		{
+			"highlightItemPath" : "list_view/comment_button",
+			"headline" : "SeenIt Button",
+			"subHeadline" : "This is how many friends have seen your story.",
+			"considerAllClicksForArea" : true,
+			"timeout" : 1500,
+			"onAreaClicks" : [{
+				"type" : "TutorialEvent",
+				"properties" : {
+					"type" : "NextStep"
+				}
+			}]
+		}]
+}
