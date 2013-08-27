@@ -42,7 +42,8 @@ public class ThreadUtil {
 		getNoNetworkTaskExecutor().execute(paramRunnable);
 	}
 
-	public static void tea(Runnable paramRunnable){
+	//tea
+	public static void executeTask(Runnable paramRunnable){
 	    if (sameLooper()){
 	    	paramRunnable.run();
 	    }else{

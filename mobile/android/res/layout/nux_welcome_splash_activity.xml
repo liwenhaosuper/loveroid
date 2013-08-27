@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/welcome_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nux_welcome_black_background" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/nux_welcome_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" />
+    <android.support.v4.view.ViewPager android:id="@id/nux_welcome_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/nux_welcome_path_logo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nux_welcome_logo_margin_top" android:src="@drawable/nux_welcome_path" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/nux_welcome_pane_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="@dimen/nux_view_title_margin_bottom" android:layout_above="@id/nux_welcome_dots">
+        <TextSwitcher android:id="@id/nux_welcome_pane_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="@style/nux_welcome_title" />
+    </FrameLayout>
+    <TextSwitcher android:id="@id/nux_welcome_pane_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/nux_welcome_pane_caption_margin_top" android:layout_marginRight="20.0dip" android:layout_alignTop="@id/nux_welcome_pane_text" android:layout_centerHorizontal="true" style="@style/nux_welcome_caption" />
+    <com.liwenhaosuper.loveroid.views.DotPagerView android:gravity="center_horizontal" android:id="@id/nux_welcome_dots" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nux_view_welcome_dots_margin_bottom" android:layout_above="@id/nux_welcome_button_container" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/nux_welcome_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="@dimen/nux_welcome_button_container_margin_bottom" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/invite_button_red" android:id="@id/nux_welcome_register_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/welcome_register" android:layout_weight="1.0" style="@style/nux_welcome_button" />
+        <Button android:id="@id/nux_welcome_login_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/welcome_login" android:layout_weight="1.0" style="@style/nux_welcome_button" />
+    </LinearLayout>
+</RelativeLayout>

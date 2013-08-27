@@ -323,7 +323,7 @@
         <item>uncle</item>
     </string-array>
     <string-array name="roboguice_modules">
-        <item>com.path.ApplicationConfig</item>
+        <item>com.liwenhaosuper.loveroid.ApplicationConfig</item>
     </string-array>
     <string-array name="sent_age_ago">
         <item>Sent %1$s years ago</item>

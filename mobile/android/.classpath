@@ -8,6 +8,7 @@
 	<classpathentry kind="lib" path="F:/projects/loveroid/mobile/android/libs/roboguice-sherlock-1.5.jar"/>
 	<classpathentry kind="lib" path="F:/projects/loveroid/mobile/android/libs/guice-2.0-no_aop.jar"/>
 	<classpathentry kind="lib" path="F:/projects/loveroid/mobile/android/libs/roboguice-2.0.jar"/>
+	<classpathentry kind="lib" path="F:/projects/loveroid/mobile/android/libs/jsr305.jar"/>
 	<classpathentry kind="lib" path="F:/projects/loveroid/mobile/android/libs/android-support-v4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/welcome_wrapper" android:background="@color/feed_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/login_action_bar" android:background="@drawable/actionbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:src="@drawable/actionbar_path" android:scaleType="center" android:layout_weight="0.0" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/catchphrase_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="0.0">
+        <TextView android:gravity="center" android:id="@id/catchphrase" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/welcome_catchphrase_2" style="@style/welcome_headline_text" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/splash_illustration" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/nux_splash_illustration" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/signin_buttons_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+        <Button android:id="@id/welcome_facebook" android:visibility="gone" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/welcome_login_with_facebook" style="@style/nux_button_fb" />
+        <Button android:id="@id/welcome_login" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/welcome_login" android:layout_centerHorizontal="true" style="@style/nux_button_path" />
+        <Button android:id="@id/welcome_signup" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/welcome_signup" style="@style/nux_button_path" />
+    </LinearLayout>
+</LinearLayout>
