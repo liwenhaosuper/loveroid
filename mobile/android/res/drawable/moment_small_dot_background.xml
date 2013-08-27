@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/moment_smalldot" android:insetLeft="@dimen/feed_dot_small_offset_left" android:insetRight="@dimen/feed_dot_small_offset_right" android:insetTop="@dimen/feed_dot_small_offset_top" android:insetBottom="@dimen/feed_dot_small_offset_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

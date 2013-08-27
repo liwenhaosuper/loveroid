@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="moment_people_photo">
+        <item name="android:layout_width">37.0px</item>
+        <item name="android:layout_height">37.0px</item>
+        <item name="android:layout_marginLeft">7.0px</item>
+        <item name="android:layout_marginTop">6.0px</item>
+    </style>
+    <style name="permalink_carrot">
+        <item name="android:layout_marginLeft">97.0px</item>
+    </style>
+    <style name="menu_divider">
+        <item name="android:paddingTop">4.0px</item>
+    </style>
+    <style name="gracenote_album_text_shadow">
+        <item name="android:shadowColor">#aa000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="shadow_up">
+        <item name="android:shadowDy">-2.0</item>
+    </style>
+    <style name="shadow_down">
+        <item name="android:shadowDy">2.0</item>
+    </style>
+</resources>

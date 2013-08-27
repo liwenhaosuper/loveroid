@@ -22,7 +22,7 @@ public class NuxWelcomeSplashActivity extends NuxSignUpActivity{
 
 	public void onCreate(Bundle paramBundle){
 		super.onCreate(paramBundle);
-		setContentView(R.layout.nux_welcome_splash_activity);
+		//setContentView(R.layout.nux_welcome_splash_activity);
 	}
 	
 	@Override

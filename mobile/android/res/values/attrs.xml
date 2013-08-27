@@ -80,7 +80,10 @@
     <attr name="listPopupWindowStyle" format="reference" />
     <attr name="activityChooserViewStyle" format="reference" />
     <attr name="activatedBackgroundIndicator" format="reference" />
+    -->
+    
     <attr name="absForceOverflow" format="boolean" />
+    <!-- 
     <attr name="navigationMode">
         <enum name="normal" value="0" />
         <enum name="listMode" value="1" />
@@ -115,7 +118,7 @@
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="initialActivityCount" format="string" />
     <attr name="expandActivityOverflowButtonDrawable" format="reference" />
-     -->
+      -->
     <attr name="show_pictures" format="boolean" />
     <attr name="extra_fields" format="string" />
     <attr name="show_title_bar" format="boolean" />

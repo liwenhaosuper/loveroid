@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <animation-list android:oneshot="false">
+            <item android:duration="500" android:drawable="@drawable/search_nearby_target" />
+            <item android:duration="500" android:drawable="@drawable/search_nearby_target_blink" />
+        </animation-list>
+    </item>
+    <item android:drawable="@drawable/search_nearby_target" />
+</selector>

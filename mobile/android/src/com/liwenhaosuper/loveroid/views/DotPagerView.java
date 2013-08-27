@@ -33,9 +33,9 @@ public class DotPagerView extends LinearLayout{
 	  {
 		  for(int i=0;i<getChildCount();i++){
 			  if (i == paramInt){
-				  getChildAt(i).setBackgroundResource(R.drawable.popup_page_active);
+				  //getChildAt(i).setBackgroundResource(R.drawable.popup_page_active);
 			  }else{
-				  getChildAt(i).setBackgroundResource(R.drawable.popup_page_inactive);
+				  //getChildAt(i).setBackgroundResource(R.drawable.popup_page_inactive);
 			  }
 		  }
 	  }
